@@ -1,0 +1,554 @@
+    // here goes images
+    body {
+        font-family: "Lato";
+    }
+    
+    .bg-layer {
+        background-color: #0d3242;
+    }
+    
+    .bg-line {
+        background-color: #b3b3b3;
+    }
+    
+    .bg-faded-2 {
+        background-color: #f0f0f0;
+    }
+    
+    .bg-main {
+        background-color: #ffffff;
+    }
+    
+    .bg-a {
+        background-color: #adadad;
+    }
+    
+    .st-lg {
+        font-family: "Lato";
+        font-size: 60px;
+        font-weight: 900;
+    }
+    
+    .st-md {
+        font-family: "Lato";
+        font-size: 25px;
+        font-weight: 900;
+    }
+    
+    .a {
+        color: #adadad;
+    }
+    
+    .b {
+        color: #ededed;
+    }
+    
+    .c {
+        color: #e3e3e3;
+    }
+    
+    .d {
+        color: #535353;
+    }
+    
+    .e {
+        color: #1944c3;
+    }
+    
+    .let-space {
+        letter-spacing: 0.25rem;
+    }
+    
+    .let-space-sm {
+        letter-spacing: 0.08rem;
+    }
+    
+    .font-20 {
+        font-size: 20px;
+    }
+    
+    .font-18 {
+        font-size: 18px;
+    }
+    
+    .h-400 {
+        height: 400px;
+    }
+    
+    .map-icon {
+        font-size: 40px;
+        color: #adadad;
+        line-height: 48px;
+        text-align: center;
+        // white-space: nowrap;
+    }
+    
+    .map-icon_2 {
+        font-size: 70px;
+        color: #0d3242;
+        line-height: 48px;
+        text-align: center;
+        // white-space: nowrap;
+    }
+    
+    .map-icon_3 {
+        font-size: 200px;
+        color: #adadad;
+        line-height: 48px;
+        text-align: center;
+        // white-space: nowrap;
+    }
+    
+    .inter {
+        padding: 80px 50px;
+    }
+    
+    .bg-main-3 {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    .bg-main-4 {
+        background-color: rgba(255, 255, 255, 0.07);
+    }
+    
+    .bg-main-5 {
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    
+    .brd {
+        border: 2px solid #e3e3e3;
+    }
+    
+    .brd-2 {
+        border: 5px solid #e3e3e3;
+    }
+    
+    .brd-3 {
+        border: 1px solid #0d3242;
+    }
+    
+    .dot-1 {
+        width: 20px;
+        height: 20px;
+        border: 1px solid #adadad;
+    }
+    
+    .dot-2 {
+        width: 20px;
+        height: 20px;
+        transform: rotate(45deg);
+        border: 1px solid #adadad;
+    }
+    
+    .dot-sm {
+        height: 10px;
+        width: 30px;
+    }
+    
+    .pos-r {
+        position: relative;
+    }
+    
+    .pos-a {
+        position: absolute;
+    }
+    
+    .rot-45 {
+        transform: rotate(45deg);
+    }
+    
+    .pos-s {
+        position: static;
+    }
+    
+    .team h4 {
+        font-weight: 900;
+    }
+    
+    .word-space {
+        word-spacing: 0.25rem;
+    }
+    
+    .brd-rad-left {
+        border-radius: 10px 0 0 10px;
+    }
+    
+    .brd-rad-right {
+        border-radius: 0 10px 10px 0;
+    }
+    
+    .ver-line {
+        width: 2px;
+        height: 20px;
+        background-color: #000;
+    }
+    
+    .ver-line-2 {
+        width: 2px;
+        height: 20px;
+        background-color: #fff;
+    }
+    
+    .references h5 {
+        font-weight: 900;
+    }
+    
+    div ul li a {
+        text-decoration: none;
+        font-weight: 900;
+    }
+    
+    a.underline {
+        color: #adadad;
+        text-decoration: none;
+        padding-bottom: 0.05em;
+        position: relative;
+    }
+    
+    a.underline::after {
+        content: "";
+        top: 100%;
+        border-bottom: 5px solid #ffffff;
+        position: absolute;
+        padding-top: 5px;
+        left: 0;
+        right: 100%;
+        transition: all 0.35s;
+    }
+    
+    a.underline:hover::after {
+        right: 0;
+        transition: all 0.35s;
+    }
+    
+    .box-shadow {
+        box-shadow: 0px 0px 2px 2px rgba(0, 50, 50, 0.1)
+    }
+    
+    .box-shadow-2 {
+        box-shadow: 0px 0px 6px 4px rgba(0, 50, 50, 0.09)
+    }
+    
+    .box-shadow-3 {
+        box-shadow: 0px 10px 20px 6px rgba(0, 50, 50, 0.50)
+    }
+    
+    .box-shadow-main {
+        box-shadow: 0px 0px 7px 7px rgba(173, 173, 173, 0.4)
+    }
+    
+    .edu {
+        font-weight: 900;
+        font-size: 20px;
+    }
+    
+    .hor_line {
+        width: 100%;
+        height: 10px;
+    }
+    
+    .edu_awards {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .portfolio_top {
+        position: relative;
+        transition: all 0.45s;
+    }
+    
+    .portfolio_top:hover {
+        transform: scale(1.4);
+        transition: all 0.45s;
+        z-index: 1;
+        box-shadow: none;
+    }
+    
+    .experience_pos_2 {
+        top: -25px;
+        // left: 15px;
+    }
+    
+    .experience_pos_1 {
+        top: -50px;
+        // left: 30px;
+    }
+    
+    .z_index_3 {
+        z-index: 3;
+    }
+    
+    .z_index_2 {
+        z-index: 2;
+    }
+    
+    .z_index_1 {
+        z-index: 1;
+    }
+    
+    .experience_top:hover {
+        transform: scale(1.1);
+        transition: all 0.8s;
+        z-index: 100;
+    }
+    
+    @keyframes experience_anime {
+        from {
+            transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+            animation-timing-function: ease-in;
+            opacity: 0;
+        }
+        35% {
+            transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+            animation-timing-function: ease-in;
+            opacity: 0.7;
+        }
+        55% {
+            transform: perspective(400px) rotate3d(1, 0, 0, 10deg);
+            opacity: 1;
+        }
+        75% {
+            transform: perspective(400px) rotate3d(1, 0, 0, -5deg);
+        }
+        to {
+            transform: perspective(400px);
+        }
+    }
+    
+    .experience_anime {
+        animation-name: experience_anime;
+        animation-duration: 2.5s;
+    }
+    
+    @keyframes animeLeft-3 {
+        from,
+        55%,
+        65%,
+        85%,
+        to {
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        from {
+            opacity: 0;
+            transform: translate(-3000px);
+        }
+        55% {
+            opacity: 1;
+            transform: translate(25px);
+        }
+        65% {
+            transform: translate(-10px);
+        }
+        85% {
+            transform: translate(5px);
+        }
+        to {
+            transform: none;
+        }
+    }
+    
+    .animeLeft-3 {
+        animation-name: animeLeft-3;
+        animation-duration: 2s;
+    }
+    
+    @keyframes animeLeft-4 {
+        from,
+        70%,
+        80%,
+        90%,
+        to {
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        from {
+            opacity: 0;
+            transform: translate(-3000px);
+        }
+        70% {
+            opacity: 1;
+            transform: translate(25px);
+        }
+        80% {
+            transform: translate(-10px);
+        }
+        90% {
+            transform: translate(5px);
+        }
+        to {
+            transform: none;
+        }
+    }
+    
+    .animeLeft-4 {
+        animation-name: animeLeft-4;
+        animation-duration: 3s;
+    }
+    
+    @keyframes animeLeft-5 {
+        from,
+        75%,
+        87%,
+        97%,
+        to {
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        from {
+            opacity: 0;
+            transform: translate(-3000px);
+        }
+        75% {
+            opacity: 1;
+            transform: translate(25px);
+        }
+        87% {
+            transform: translate(-10px);
+        }
+        97% {
+            transform: translate(5px);
+        }
+        to {
+            transform: none;
+        }
+    }
+    
+    .animeLeft-5 {
+        animation-name: animeLeft-5;
+        animation-duration: 4s;
+    }
+    
+    @keyframes animeRight-3 {
+        from,
+        55%,
+        65%,
+        85%,
+        to {
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        from {
+            opacity: 0;
+            transform: translate(3000px);
+        }
+        55% {
+            opacity: 1;
+            transform: translate(-25px);
+        }
+        65% {
+            transform: translate(10px);
+        }
+        85% {
+            transform: translate(-5px);
+        }
+        to {
+            transform: none;
+        }
+    }
+    
+    .animeRight-3 {
+        animation-name: animeRight-3;
+        animation-duration: 2s;
+    }
+    
+    @keyframes animeRight-4 {
+        from,
+        70%,
+        80%,
+        90%,
+        to {
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        from {
+            opacity: 0;
+            transform: translate(3000px);
+        }
+        70% {
+            opacity: 1;
+            transform: translate(-25px);
+        }
+        80% {
+            transform: translate(10px);
+        }
+        90% {
+            transform: translate(-5px);
+        }
+        to {
+            transform: none;
+        }
+    }
+    
+    .animeRight-4 {
+        animation-name: animeRight-4;
+        animation-duration: 3s;
+    }
+    
+    @keyframes animeRight-5 {
+        from,
+        75%,
+        87%,
+        97%,
+        to {
+            animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+        }
+        from {
+            opacity: 0;
+            transform: translate(3000px);
+        }
+        75% {
+            opacity: 1;
+            transform: translate(-25px);
+        }
+        87% {
+            transform: translate(10px);
+        }
+        97% {
+            transform: translate(-5px);
+        }
+        to {
+            transform: none;
+        }
+    }
+    
+    .animeRight-5 {
+        animation-name: animeRight-5;
+        animation-duration: 4s;
+    }
+    
+    .inter-1 {
+        transform: scale(2.3);
+    }
+    
+    .inter-2-left {
+        transform: scale(1.5);
+        left: -35px;
+    }
+    
+    .inter-2-right {
+        transform: scale(1.5);
+        right: -35px;
+    }
+    
+    .inter-3 {
+        transform: scale(1.1);
+    }
+    
+    .interest-2 {
+        margin-top: 150px;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+    
+    .item-size-big {
+        transform: scale(2);
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    .interest-content {
+        font-size: 20px;
+        width: 240px;
+        margin: auto;
+        text-align: center;
+    }
